@@ -44,7 +44,7 @@ ul {
 
 .social {
     padding: 30px;
-    height: 260px;
+    height: 330px;
     background-color: white;
     text-align: center;
 }
@@ -71,24 +71,22 @@ h2 {
 
 .shopselector1 {
     display: flex;
-    height: 380px;
+    height: 480px;
     width: 50%;
-    background-image: url('assets/auction.jpg');
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('assets/auction.jpg');
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 75%;
     justify-content: center;
     align-items: center;
 }
 
 .shopselector2 {
     display: flex;
-    height: 380px;
+    height: 480px;
     width: 50%;
-    background-image: url('assets/box.jpg');
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('assets/box.jpg');
     text-align: center;
-    opacity: 0.75;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -97,7 +95,8 @@ h2 {
 
 .AboutUs {
     height: 250px;
-    padding: 80px;
+    padding: 150px;
+    text-align: center;
 }
 
 p {
